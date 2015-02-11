@@ -3,7 +3,6 @@ body  {
 		background-size: 100%;
 		color: white;
 	}
-<<<<<<< HEAD
 
 p {
     font: italic bold 12px/30px Georgia, serif;
@@ -17,9 +16,6 @@ p {
 		text-align: left;
 		}
 		
-=======
-	
->>>>>>> parent of c71fffd... m
 .about-wrapper  {
 		border: thick double black;
 		border-radius: 25px;
