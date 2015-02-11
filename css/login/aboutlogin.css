@@ -1,0 +1,44 @@
+body  {
+		background: url("aboutsectionBG2.jpg");
+		background-size: 100%;
+		color: white;
+	}
+	
+.navbar	{
+		background: url("bgd2.jpg");
+		background-size: 100%;
+		}
+
+.navbar-toggle {
+		z-index: +1;
+		background:gray;
+		float:left;
+		}
+		
+
+.nav-tabs {
+		margin-top: 50px;
+		}
+
+#tab1  {
+		background:black;
+		float: left;
+		width:15%;
+		border: gray;
+		border-style:groove;
+}
+
+#tab2  {
+	background:red;
+	float: left;
+	width:15%;
+	border-style:groove;
+}	
+
+#tab3  {
+	background:gray;
+	float: left;
+	width:15%;
+	border-style:groove;
+
+}	

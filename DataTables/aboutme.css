@@ -1,0 +1,100 @@
+body  {
+		background: url("aboutsectionBG2.jpg");
+		background-size: 100%;
+		color: white;
+	}
+	
+.navbar	{
+		background: url("abouttaskbar.jpg");
+		background-size: 100%;
+		}
+
+.navbar-toggle {
+		z-index: +1;
+		background:gray;
+		float:right;
+		}
+		
+
+.nav-tabs {
+		margin-top: 50px;
+		}
+
+#tab1  {
+		background:black;
+		float: left;
+		width:15%;
+		border: gray;
+		border-style:groove;
+}
+
+#tab2  {
+	background:red;
+	float: left;
+	width:15%;
+	border-style:groove;
+}	
+
+#tab3  {
+	background:gray;
+	float: left;
+	width:15%;
+	border-style:groove;
+
+}		
+		
+.about-wrapper  {
+		background: gray;
+		margin-top: 200px;
+		width: 300px;
+		height: 450px;
+		text-indent: 50px;
+		font-size: 100%;
+		text-align: left;
+		float: right;
+		position: relative;
+		left: -50%; /* or right 50% */
+		text-align: left;
+}
+	}
+
+.aboutmeparagraph {
+		margin: 10px;
+		}
+	
+.logo 	{
+		border: medium solid white;
+		border-width: 2px;
+		width: 150px;
+		margin: 5px;
+		float: left;
+	}
+	
+.aboutImages {
+		margin-top: 100px;
+		}
+
+	
+	/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: lightgray;
+}
+
+/* selected link */
+a:active {
+    color: lightgray;
+}
+
+.tictactoebackground {
+		margin-top: 200px
+		}

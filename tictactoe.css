@@ -1,0 +1,31 @@
+#cell11, #cell12, #cell21, #cell22 {
+	width: 100px;
+	height: 100px;
+	border-style:none solid solid none;
+	border-width: 5px;
+	border-color: red;
+	background: white;
+	}
+
+#cell13, #cell23 {
+	width: 100px;
+	height: 100px;
+	border-style:none none solid none;
+	border-width: 5px;
+	border-color: red;
+	background: white;
+	}
+
+#cell31, #cell32 {
+	width: 100px;
+	height: 100px;
+	border-style:none solid none none;
+	border-width: 5px;
+	border-color: red;
+	background: white;
+	}
+
+#cell33 {
+	background: white;
+	}
+	

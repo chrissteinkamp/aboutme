@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		
+	</head>
+	<body>
+		<div>
+			<div>
+				<a style="color:red" href="html/registration.html">Registration</a>		
+				<a style="color:red" href="html/faq.html">FAQ</a>
+				<a style="color:red" href="html/contactus.html">Contact Us</a>
+				<a style="color:red" href="html/tictactoe.html">Tic Tac Toe</a>
+			</div>
+		</div>
+	<form action="" method="post" id="register-form" novalidate="novalidate">
+		<div class = "fName">
+			<p>First Name:</p>	<input type="text" id="fName" />
+		</div>
+		<div class = "lName">
+			<p>Last Name:</p>	<input type="text" id="lName" />
+		</div>
+		<div class = "address">
+			<p>Address:</p>	<input type="text" id="address" />
+		</div>
+		<div class = "city">
+			<p>City:</p>	<input type="text" id="city" />
+		</div>
+		<div class = "state">
+			<p>State:</p>	<input type="text" id="state" />
+		</div>
+		<p> </p>
+		<div class = "submit">
+			<input type="submit" value="Submit" onclick="validate();"/>
+			<button type="reset" value="Clear">Clear</button>
+		</div>
+	</form>
+		<script src="javascript/registrationValid.js"></script>
+	</body>
+</html>

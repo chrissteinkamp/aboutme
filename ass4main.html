@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8" >   
+		<title>Page 1</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="aboutme.css" />
+		<link rel="stylesheet" href="tictactoe.css" />
+		<link rel="stylesheet" href="bootstrap-theme.css" />
+    </head>
+	
+	<div class="page-wrapper">
+	<body>
+		<!--page container-->	
+
+			
+				<!--top bar links-->	
+				<div class="navbar navbar-inverse navbar-fixed-top">
+					<div class="container">
+						<!--<a href = "#" class = "navbar-brand">Chris Steinkamp</a>-->
+						<!--mobile menu bar graphic -->
+						
+						<button class ="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+							<span class = "icon-bar"></span>
+							<span class = "icon-bar"></span>
+							<span class = "icon-bar"></span>
+						</button>
+						<div class="collapse navbar-collapse navHeaderCollapse">
+							<ul class = "nav navbar-nav navbar-right">
+								<li><a href="index.html"> Home Page</a></li>
+								<li><a href="ass4bootstraptest.html"> Bootstrap Page 2 </a></li>
+								<li class= "dropdown-menu-right">
+									<a href="#" class="dropdown-toggle" data-toggle = "dropdown"> Login<b class="caret"></b></a>
+
+									<ul class = "dropdown-menu">
+										<li><a href="ass4login.html">Log In</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+
+				
+					
+			<!--Main About Me Section-->	
+	<center>
+			<div style="margin: 50px 0px 0px 0px"class="about-wrapper">
+				<div class="aboutmeheader">
+					<h2><b><u>About Me</u></b></h2>
+				</div>
+				
+					<div class="aboutmeparagraph" style="width: 350px;">
+						<p id="p1">
+						My name is Christopher Steinkamp, and I am a student at the 
+						University of Louisville.
+							<div class="image">
+								<a href="http://uofl.edu"><img color="red" class="logo" src="UofLouisville.png" alt="http://uofl.edu"></img></a>
+							</div>
+						I plan to graduate in May 2015 with a Major in Computer
+						Information Systems with focuses in both Information Security
+						and Web-Development as well as a Minor in Management. 
+						I have interned with the Warehouse Development Team at 
+						Great American Insurance Group, and I used Oracle to work 
+						with their enterprise and financial data warehouses.
+						</p>
+					</div>
+			</div>
+	
+		
+		<div class="row">
+		  <div class="col-md-3">
+			<h3>Column 1</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+			incididunt ut labore et dolore magna aliqua.</p>
+		  </div>
+		  <div class="col-md-3"> 
+			<h3>Column 2</h3>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+			aliquip ex ea commodo consequat.</p>
+		  </div>
+		  <div class="col-md-3"> 
+			<h3>Column 3</h3>
+			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+			doloremque laudantium, totam rem aperiam.</p>
+		  </div>
+		  <div class="col-md-3"> 
+			<h3>Column 4</h3>
+			<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+			dicta sunt explicabo.</p>
+		  </div>
+		</div>
+	
+	
+	
+			<!--Tic Tac Toe Container-->	
+		<div class="tictactoebackground">
+			<div class="tictactoe">
+				<div class="tictactoetitle">
+					<h1 color="white"><b><u>Tic Tac Toe</u></b></h1>
+				</div>
+				
+					<!--table code-->	
+					<table border="0.5" cellpadding="0" cellspacing="0" class="table1">
+						<tr id="row1">
+							<td id = "cell11"></td>	<!--top left cell-->	
+							<td id = "cell12"></td>	<!--top center cell-->	
+							<td id = "cell13"></td>	<!--top right cell-->	
+						</tr>
+						<tr id="row2">
+							<td id = "cell21"></td>	<!--middle left cell-->	
+							<td id = "cell22"></td>	<!--midddle center cell-->	
+							<td id = "cell23"></td>	<!--middle right cell-->	
+						</tr>
+						<tr id="row3">
+							<td id = "cell31"></td>	<!--bottom left cell-->	
+							<td id = "cell32"></td>	<!--bottom center cell-->	
+							<td id = "cell33"></td>	<!--bottom right cell-->	
+						</tr>
+					</table>
+					
+					<!--New Game refresh link-->	
+					<div class = "newgame">
+						<a href="aboutme.html" style="font-size:150%">New Game</a>
+					</div>
+			</div>
+		</div>
+	</center>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="tictactoe.js"></script>
+		<script src="aboutme.js"></script>
+		
+	</body>	
+			<!--page footer-->	
+		<footer class="main-footer" style="margin: 200px 0px 0px 0px;">
+		
+			<div class="social-bar">
+				<a href="https://www.facebook.com" title="Facebook" >
+				   <img src="facebook.jpg" alt="Facebook icon" style="width:50px;height:50px"/>
+				</a>
+				<a  href="https://www.twitter.com" title="Twitter">
+				   <img src="twitter.png" alt="Twitter icon" style="width:50px;height:50px"/>
+				</a>
+				<a href="https://www.linkedin.com/" title="LinkedIn">
+				   <img src="linkedin.png" alt="Linkedin icon" style="width:50px;height:50px"/>
+				</a>
+			</div>
+			
+			<div>
+				<div>Chris Steinkamp. All rights reserved. Copyright &copy; 2014.</div>
+			</div>
+			
+		</footer>
+	</div>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">  
+	<script type ="text/javascript">
+			function validate() {
+				if (document.getElementById("emailAddress").value == "")  {
+					alert("Enter a Value!"); }
+				if (document.getElementById("feedbackForm").value == "")  {
+					alert("Must Enter Feedback!"); }
+			}
+	</script>
+		
+    </head>
+
+		
+
+	<body align="center">
+			<div class="menu">
+				<div>
+					<a style="color:red" href="calc.html"> Home</a>
+				</div>
+				<div>
+					<a style="color:red" href="registration.html">Registration</a>		<a style="color:red" href="feedback.html">Feedback</a>		<a style="color:red" href="faq.html">FAQ</a>
+				</div>
+			</div>
+	<div class = "emailTxt">
+		<input type="text" id="emailAddress" />
+	</div>
+	<div class = "feedbackTxt" >
+		<textarea id='feedbackForm' style="widht:200px; height: 200px;"></textarea>
+	</div>
+	<div class = "submit">
+		<input type="submit" value="Submit" onclick="validate();"/>
+		<button type="reset" value="Clear">Clear</button>
+	</div>
+	</body>
+
+
+</html>

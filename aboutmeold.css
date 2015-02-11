@@ -1,0 +1,98 @@
+
+
+p  {
+		text-indent: 50px;
+	}
+	
+
+	
+/* Link CSS Section */
+a 	{
+		margin: 5px;
+	}
+		a:link {
+			color: red;
+		}
+
+		/* visited link */
+		a:visited { 
+			color: red;
+		}
+
+		/* mouse over link */
+		a:hover {
+			color: black;
+		}
+
+		/* selected link */
+		a:active {
+			color: red;
+		}
+body  {
+		background: url("aboutbackground.jpg");
+		background-size: contain;                     
+		background-repeat: no-repeat;
+	}
+.about-wrapper {
+		background: url("aboutmebackgroundcontainer.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		color: white;
+		margin: 100px 0px 0px 10px;
+	}
+	
+.about-wrapper .aboutmeparagraph {
+		width:350px;
+		margin: 0px 0px 0px 75px;
+		font-size: 100%;
+	}	
+
+.about-wrapper .aboutmeheader {
+		font-size: 100%;
+		margin: 0px 0px 0px 250px;
+	}
+
+.logo 	{
+		width: 200px; 
+		float:left;
+		border: medium solid white;
+		border-width: 2px;
+	}
+
+
+.nav {
+		margin: 25px 0px 0px 50px;
+		border-top: 3px solid #000;
+		border-bottom: 3px solid #000;
+		background-color: lightgray;
+	}
+
+
+/*Footer CSS Section */	
+.main-footer {
+		position: absolute;
+		width: 200px;
+		margin: 100px 0px 0px 0px;
+	}
+	
+/* Tic Tac Toe html CSS */
+.tictactoe {
+	position:absolute;
+	float:right;
+    top: 115px;
+    right: 150px;
+	color: red;
+	text-align: center;
+	width: 20%;
+	height: 20%
+   }
+   
+  .tictactoebackground {
+	width: 50%;
+	background: url("aboutmebackgroundcontainer.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+   }
+   
+   
+	

@@ -1,0 +1,62 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   CIS-411
+#	new file:   Thumbs.db
+#	new file:   UofLouisville.png
+#	new file:   aboutlogin.html
+#	new file:   aboutme.css
+#	new file:   aboutme.html
+#	new file:   aboutmebackgroundcontainer.png
+#	new file:   aboutmeold.css
+#	new file:   aboutsection.jpg
+#	new file:   bckround.jpg
+#	new file:   bckround2.jpg
+#	new file:   bootstrap test.html
+#	new file:   bootstrap.zip
+#	new file:   calc.html
+#	new file:   calc.js
+#	new file:   card.jpg
+#	new file:   cards.jpg
+#	new file:   check.gif
+#	new file:   config.json
+#	new file:   contactus.html
+#	new file:   elements.html
+#	new file:   entities.html
+#	new file:   external_styles.html
+#	new file:   facebook.jpg
+#	new file:   faq.html
+#	new file:   feedback.html
+#	new file:   form.html
+#	new file:   index.html
+#	new file:   inline_styles.html
+#	new file:   internal_styles.html
+#	new file:   jquery-2.1.3.js
+#	new file:   jquery.dataTables.js
+#	new file:   linkedin.png
+#	new file:   mobile.css
+#	new file:   registration.html
+#	new file:   registrationValid.js
+#	new file:   resume.pdf
+#	new file:   slide_2.jpg
+#	new file:   slide_3.jpg
+#	new file:   style.css
+#	new file:   styles.css
+#	new file:   tictactoe.css
+#	new file:   tictactoe.html
+#	new file:   tictactoe.js
+#	new file:   tictactoecard.png
+#	new file:   tictactoewildcat.jpg
+#	new file:   titleVertigo.jpg
+#	new file:   twitter.png
+#	new file:   websiteEdit.html
+#
+# Changes not staged for commit:
+#	modified:   CIS-411 (untracked content)
+#
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<script type ="text/javascript">
+			function validate() {
+				if (document.getElementById("name").value == "")  {
+					alert("Must Enter a name!"); }
+				if (document.getElementById("emailAddress").value == "")  {
+					alert("Enter an email!"); }
+				if (document.getElementById("feedbackForm").value == "")  {
+					alert("Must Enter Feedback!"); }
+			}
+	</script>
+	</head>
+	<body>
+		<div>
+			<div>
+				<a style="color:red" href="registration.html">Registration</a>		
+				<a style="color:red" href="faq.html">FAQ</a>
+				<a style="color:red" href="contactus.html">Contact Us</a>
+				<a style="color:red" href="tictactoe.html">Tic Tac Toe</a>
+			</div>
+		</div>
+		<div class = "name">
+			<p>Name:</p> <input type="text" id="name" />
+		</p>
+		</div>
+		
+		<div class = "emailTxt">
+			<p>Email:</p> <input type="text" id="emailAddress" />
+		</p>
+		</div>
+		
+		<div class = "feedbackTxt" >
+			<p></p> 
+			<textarea id='feedbackForm' style="width:200px; height: 200px;"></textarea>
+		</div>
+		
+		<div class = "submit">
+			<input type="submit" value="Submit" onclick="validate();"/>
+			<button type="reset" value="Clear">Clear</button>
+		</div>
+	</body>
+</html>

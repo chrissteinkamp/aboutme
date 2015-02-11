@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+}
+
+.content {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+
+
+.main {
+	position: absolute;
+	margin-left: 150px;
+	width: 400px;
+}
+
+.main .mainImg {
+	margin-left: 100px;
+}
+
+
+
+.mainContent p {
+	text-indent: 33px;
+	margin-top: 5px; 
+	font-size: small;
+}
+
+h3 {
+	margin: 0;
+	font-weight: 500;
+}
+
+.sidebar {
+	position: absolute;
+	width: 190px;
+	margin-left: 590px;
+	margin-top: 150px;
+	text-align: right;
+}
+
+.sidebarContent ul {
+	list-style: none;
+	margin: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-size: small;
+}
+

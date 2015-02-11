@@ -1,0 +1,80 @@
+.small {
+	width: 25%;
+}
+
+.clear {
+	width: 50%;
+}
+
+.mainContainer {
+	margin-top: 40px;
+	margin: 0 auto;
+	width: 400px;
+	height: 385px;
+	background: url("aboutmebackground.jpg");
+	background-position: center;
+	border-radius: 10px;
+}
+
+.display {
+	position: relative;
+	width: 245px;
+	height: 60px;
+	top: 20px;
+	margin: 0 auto;
+	background-color: white;
+	margin-bottom: 30px;
+}
+
+.mainContainer {
+	position: relative;
+	margin: 50px auto;
+	width: 250px;
+	height: 175px;
+}
+
+.buttonContainer .clear {
+	float: left;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	background-color: gray;
+	box-sizing: border-box;
+	border: 1px solid black;
+	position: relative;	
+	height: 50px;
+
+}
+
+.buttonContainer .small {
+	background-color: gray;
+	box-sizing: border-box;
+	border: 1px solid black;
+	float: left;
+	display: inline-block;
+	position: relative;
+	height: 50px;
+
+}
+
+.calc {
+	width: 100%;
+	height: 100%;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#666666), to(#636363), color-stop(.4,#616161),color-stop(.6,#737373)) !important; 
+	font-size: 1.9em;
+	font-family: serif;
+	text-shadow: 2px 2px #000;
+	color: lightgray;
+	border: 0;
+}
+
+.displayTxt {
+	text-align: right;
+	width: 100%;
+	height: 100%;
+	background-color: lightgray;
+	font-size: 2em;
+	font-family: serif;
+}
+
+
