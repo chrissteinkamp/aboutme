@@ -1,71 +1,189 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		
-<style>
-
-.container {
-	margin: 10px;
-	}
-		
-</style>
-				  
+    <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8" >    
+		<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+		<link rel="stylesheet" href="aboutme.css" />
+		<link rel="stylesheet" href="tictactoe.css" />
+		<link rel="stylesheet" href="css/navbar/navbar.css" />
+		<link rel="stylesheet" href="css/bootstrap/bootstrap-theme.css" />
 	</head>
-	<body background = "card.jpg" link="white" vlink="white" alink = "gray">
-		<div>
-			<center>
-				<h1 style="color:white"><u>Welcome to my First Website</u></h1>
-				<h3 style="color:white">By: Chris Steinkamp</h3>
-			</center>
-			
-			<div class="container">
-				<h2 style="color:white">Bio</h2>
-				<ul style="color:white">
-					<li><a href="aboutme.html"> About Me</a>
-				</ul>
-			</div>
-			
-			<div class="container">
-				<h2 style="color:white">Basic HTML & CSS Web Page Examples (Assignment 1a)</h2>
-				<ul style="color:white">
-					<li><a href="elements.html"> Element Examples</a>
-					<li><a href="inline_styles.html"> Inline-style Examples</a>
-					<li><a href="internal_styles.html"> Internal-style Examples</a>
-					<li><a href="external_styles.html"> External-style Examples</a>
-					<li><a href="form.html"> Form Examples</a>
-					<li><a href="entities.html"> Entity Examples</a>
-				</ul>
-			</div>
-			
-			<div class="container">
-				<h2 style="color:white">Modified Website (Assignment 1b)</h2>
-				<ul style="color:white">
-					<li><a href="http://www.csszengarden.com/"> Original Web Page</a>
-					<li><a href="websiteEdit.html"> Modified Web Page</a>
-				</ul>
-			</div>
-			
-			<div class="container">
-				<h2 style="color:white">Assignment 2</h2>
-				<ul style="color:white">
-					<li><a href="calc.html"> Calculator</a>
-				</ul>
-			</div>
-			
-			<div>
-				<h2 style="color:white">Assignment 3</h2>
-				<ul style="color:white">
-					<li><a href="tictactoe.html"> Tic Tac Toe</a>
-				</ul>
-			</div>
-			
-			<div class="container">
-				<h2 style="color:white">Assignment 4</h2>
-				<ul style="color:white">
-					<li><a href="ass4main.html"> Bootstrap </a>
-				</ul>
+		
+		
+	<body>	
+
+	<!--top bar links-->	
+	<div class="nav">
+					<div class="navbar navbar-inverse navbar-fixed-top" background="img/bgd2.jpg">
+						<div class="container">
+							<!--<a href = "index.html" class = "navbar-brand">Chris Steinkamp</a>-->
+							
+							
+							<!--mobile menu bar graphic -->
+							<button class ="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+								<span class = "icon-bar"></span>
+								<span class = "icon-bar"></span>
+								<span class = "icon-bar"></span>
+							</button>
+							<div class="collapse navbar-collapse navHeaderCollapse">
+								<ul class = "nav navbar-nav navbar-right">
+									<li><a  href="index.html"> Home </a></li>
+									
+									<li class= "dropdown-menu-right">
+										<a  href="#" class="dropdown-toggle" data-toggle = "dropdown"> Assignment 1B<b class="caret"></b></a>
+										<ul class = "dropdown-menu">
+											<li class=""><a href="http://www.csszengarden.com/"> Original Web Page</a></li>
+											<li class=""><a href="websiteEdit.html"> Modified Web Page</a></li>
+										</ul>
+									</li>
+									
+									<li class= "dropdown-menu-right">
+										<a  href="#" class="dropdown-toggle" data-toggle = "dropdown"> Assignment 2<b class="caret"></b></a>
+										<ul class = "dropdown-menu">
+											<li class=""><a href="calc.html"> Calculator</a></li>
+										</ul>
+									</li>
+									
+									<li class= "dropdown-menu-right">
+										<a  href="#" class="dropdown-toggle" data-toggle = "dropdown"> Assignment 6<b class="caret"></b></a>
+										<ul class = "dropdown-menu">
+											<li class=""><a href="ass6.html">Angular Tutorial</a></li>
+										</ul>
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+			<!--Tabs-->
+			<ul class="nav nav-tabs">
+				<li id="tab2" class="active"><a href="aboutme.html" >Profile</a></li>
+				<li id="tab3"><a href="aboutlogin.html">Login</a></li>
+			</ul>
+
+						
+		<center>		
+		<!--Main About Me Section-->			
+			 <div class="col-lg-6"> 
+				<div class="about-wrapper">
+					<div class="aboutmeheader">
+						<h2><b><u>About Me</u></b></h2>
+					</div>
+					
+						<div class="aboutmeparagraph">
+							<p style="text-indent:50px">
+							My name is Christopher Steven Steinkamp, and I am a student at the 
+							University of Louisville.
+							I plan to graduate in May 2015 with a Major in Computer
+							</p>
+							<div class="logo-wrapper">	
+								<a href="http://uofl.edu">
+								<img color="red" class="logo" src="UofLouisville.png" alt="http://uofl.edu"></img>
+								</a>
+							</div>
+							<p>
+							Information Systems with focuses in both Information Security
+							and Web-Development as well as a Minor in Management. 
+							I have interned with the Warehouse Development Team at 
+							Great American Insurance Group, and I used Oracle to work 
+							with their enterprise and financial data warehouses.
+							</p>
+						</div>
+				</div>
+				</div>
+
+
+		
+
+			<div class="row">
+			  <div class="col-md-6">
+				<div class="aboutImages">
+					<h3><u>My Resume</u></h3>
+					<a href="documents/resume.pdf" title="Resume">
+					<img style="width:250px; height: 250px;" src="img/resume.jpg" alt="Resume icon" class="img-thumbnail"/>
+					</a>
+				</div>
+			  </div>
+			  <div class="col-md-6"> 
+				<div class="aboutImages">
+					<h3><u>My LinkedIn</u></h3>
+					<a  href="https://www.linkedin.com/pub/chris-steinkamp/a0/51a/166" title="LinkedIn">
+					<img style="width:250px; height: 250px;" src="img/linkedin.png" alt="LinkedIn icon" class="img-thumbnail"/>
+					</a>
+				</div>
+			  </div>
+			  <!-- <div class="col-md-3"> 
+				<h3>My LinkedIn</h3>
+				<div class="aboutImages">
+					<a  href="https://www.linkedin.com/pub/chris-steinkamp/a0/51a/166" title="LinkedIn">
+					<img style="width:250px; height: 250px;" class="aboutImages" src="linkedin.png" alt="LinkedIn icon" class="img-thumbnail"/>
+					</a>
+				</div>
+			  </div>-->
+			 </div>
+			 
+		
+		
+			<!--Tic Tac Toe Container-->	
+			<div class="tictactoebackground">
+				<div class="tictactoe">
+					<div class="tictactoetitle">
+						<h1 color="white"><b><u>Tic Tac Toe</u></b></h1>
+					</div>
+					
+						<!--table code-->	
+						<table border="0.5" cellpadding="0" cellspacing="0" class="table1">
+							<tr id="row1">
+								<td id = "cell11"></td>	<!--top left cell-->	
+								<td id = "cell12"></td>	<!--top center cell-->	
+								<td id = "cell13"></td>	<!--top right cell-->	
+							</tr>
+							<tr id="row2">
+								<td id = "cell21"></td>	<!--middle left cell-->	
+								<td id = "cell22"></td>	<!--midddle center cell-->	
+								<td id = "cell23"></td>	<!--middle right cell-->	
+							</tr>
+							<tr id="row3">
+								<td id = "cell31"></td>	<!--bottom left cell-->	
+								<td id = "cell32"></td>	<!--bottom center cell-->	
+								<td id = "cell33"></td>	<!--bottom right cell-->	
+							</tr>
+						</table>
+						
+						<!--New Game refresh link-->	
+						<div class = "newgame">
+							<a href="aboutme.html" style="font-size:150%">New Game</a>
+						</div>
+				</div>
 			</div>
 		</div>
-	</body>
+	</center>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+			<script src="js/bootstrap/bootstrap.js"></script>
+			<script src="tictactoe.js"></script>
+			
+		</body>	
+				<!--page footer-->	
+			<footer class="main-footer" style="margin: 200px 0px 0px 0px;">
+			
+				<div class="social-bar">
+					<a href="https://www.facebook.com" title="Facebook" >
+					   <img src="img/facebook.jpg" alt="Facebook icon" style="width:50px;height:50px"/>
+					</a>
+					<a  href="https://www.twitter.com" title="Twitter">
+					   <img src="img/twitter.png" alt="Twitter icon" style="width:50px;height:50px"/>
+					</a>
+					<a href="https://www.linkedin.com/" title="LinkedIn">
+					   <img src="img/linkedin.png" alt="Linkedin icon" style="width:50px;height:50px"/>
+					</a>
+				</div>
+				
+				<div>
+					<div>Chris Steinkamp. All rights reserved. Copyright &copy; 2014.</div>
+				</div>
+				
+			</footer>
 </html>

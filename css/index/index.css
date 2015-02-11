@@ -1,0 +1,60 @@
+body  {
+		background-image: url("img/bgd1.jpg");
+		background-color:black;
+		background-size: 100%;
+		color: white;
+	}
+
+p {
+    font: italic bold 12px/30px Georgia, serif;
+}
+.wrapper {
+		margin:0px auto;
+		}
+.aboutmeheader {
+		margin: 0px auto;
+		}
+		
+.aboutmeparagraph {
+		text-align: left;
+		}
+		
+.about-wrapper  {
+		border: thick double black;
+		border-radius: 25px;
+		background-color: #8F0000;
+		margin: 0px auto;
+		margin-top:150px;
+		width: 600px;
+		height: auto;
+		font-size: 100%;
+
+}
+
+.aboutmeparagraph {
+		margin: 10px;
+		}
+	
+	
+
+	
+	/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited  {
+	color:blue;
+}
+
+/* mouse over link */
+a:hover {
+    color: lightgray;
+}
+
+/* selected link */
+a:active {
+    color: lightgray;
+}
+

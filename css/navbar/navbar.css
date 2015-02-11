@@ -3,10 +3,14 @@
 		float:right;
 		background-color: black;
 		}
+.navbar- {
+		float: left;
+		}
+		
 .navbar {
-	width:350px;
 	margin: 0 auto;
 	}
+	
 .container {
 		background-color: #8F0000;
 		border: medium double black;
@@ -21,14 +25,6 @@
 		margin-top: 150px;
 		}
 
-#tab1  {
-		background-color: #8F0000;
-		border: medium solid black;
-		border-width: 2px;
-		border-radius: 25px 25px 0px 0px;
-		float: left;
-		
-	}
 
 #tab2  {
 		background-color: #8F0000;
@@ -36,6 +32,7 @@
 		border-width: 2px;
 		border-radius: 25px 25px 0px 0px;
 		float: left;
+		font:white;
 	}	
 
 #tab3  {
@@ -44,24 +41,7 @@
 		border-width: 2px;
 		border-radius: 25px 25px 0px 0px;
 		float: left;
+		color:white;
 }
 
-	/* unvisited link */
-a:link {
-    color: white;
-}
 
-/* visited link */
-a:visited {
-    color: white;
-}
-
-/* mouse over link */
-a:hover {
-    color: lightgray;
-}
-
-/* selected link */
-a:active {
-    color: lightgray;
-}

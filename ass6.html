@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html ng-app="store">
+    <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8" >    
+		<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/index/index.css" />
+		<link rel="stylesheet" href="css/navbar/navbar.css" />
+		<link rel="stylesheet" href="css/bootstrap/bootstrap-theme.css" />
+	</head>
+		
+		
+	<body ng-controller="StoreController as store" background="img/bgd.jpg">	
+		<!--top bar links-->	
+	<div class="nav">
+					<div class="navbar navbar-inverse navbar-fixed-top" background="img/bgd2.jpg">
+						<div class="container">
+							<!--<a href = "index.html" class = "navbar-brand">Chris Steinkamp</a>-->
+							
+							
+							<!--mobile menu bar graphic -->
+							<button class ="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+								<span class = "icon-bar"></span>
+								<span class = "icon-bar"></span>
+								<span class = "icon-bar"></span>
+							</button>
+							<div class="collapse navbar-collapse navHeaderCollapse">
+								<ul class = "nav navbar-nav navbar-right">
+									<li><a  href="index.html"> Home </a></li>
+									
+									<li class= "dropdown-menu-right">
+										<a  href="#" class="dropdown-toggle" data-toggle = "dropdown"> Assignment 1B<b class="caret"></b></a>
+										<ul class = "dropdown-menu">
+											<li class=""><a href="http://www.csszengarden.com/"> Original Web Page</a></li>
+											<li class=""><a href="websiteEdit.html"> Modified Web Page</a></li>
+										</ul>
+									</li>
+									
+									<li class= "dropdown-menu-right">
+										<a  href="#" class="dropdown-toggle" data-toggle = "dropdown"> Assignment 2<b class="caret"></b></a>
+										<ul class = "dropdown-menu">
+											<li class=""><a href="calc.html"> Calculator</a></li>
+										</ul>
+									</li>
+									
+									<li class= "dropdown-menu-right">
+										<a  href="#" class="dropdown-toggle" data-toggle = "dropdown"> Assignment 6<b class="caret"></b></a>
+										<ul class = "dropdown-menu">
+											<li class=""><a href="ass6.html">Angular Tutorial</a></li>
+										</ul>
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+
+			<!--Tabs-->
+			<ul class="nav nav-tabs">
+				<li id="tab2" class="active"><a href="ass6.html" >Blog</a></li>
+				<li id="tab3"><a href="tutorials.html">Tutorials</a></li>
+			</ul>
+
+			<div class="wrapper">			
+		<!--Main About Me Section-->			
+				<div class="about-wrapper">
+					<div class="aboutmeheader">
+						<center><h2><b><u>What is AngularJS?</u></b></h2></center>
+					</div>
+					
+						<div class="aboutmeparagraph">
+							<p style="text-indent:50px">
+							AngularJS, commonly referred to as Angular, is an open-source 
+							web application framework maintained by Google and a community 
+							of individual developers and corporations to address many of 
+							the challenges encountered in developing single-page applications. 
+							angular supports MVC style of application design. And here, We will talk 
+							about MVC in the context of angular application. Much of the time when you’re building application you will need:
+							<ul>
+								<li>Model to represent current state of your application</li>
+								<li>View to display the data</li>
+								<li>Controller that controls the relation between Models and Views.</li>
+							</ul>
+							</p>
+							
+							<h1>Model</h1>
+							<p style="text-indent:50px">
+							A model in angular can be a primitive type
+							such as string, number, boolean or a complex type such as object.
+							There’s no special class, no special getter or setter method, in short 
+							model is just a plain javascript object. This has an advantage if you’re 
+							familiar with javascript, because I’m sure you’re also familiar with 
+							this type of model.
+							</p>
+							
+							<h1>View</h1>
+							<p style="text-indent:50px">
+							View is what the users see, in angular view is the Document Object Model (DOM),
+							as a web developer, this fact will make you easier to understand angular view. 
+							To display the data from controller, you can put angular expression in your view. 
+							This expression binds data from model inside your controller. Since angular is two-way
+							data binding the view will update automatically if there’s a model changes from your controller. 
+							You don’t need to write additional code manually to achieve this.
+							</p>
+							
+							<h1>Controller</h1>
+							<p style="text-indent:50px" border="top">
+							Speaking the concept of controller under MVC pattern, 
+							controller is the place where we put our application logic. 
+							In angular, controller is simply formed by javascript classes.
+							In this controller we can also call other components to work with. 
+							And the most important to explain is, in this controller your model lives.
+							</p>
+							<p style="text-indent:50px">
+							We have just covered what Model, View and Controller in angular are. Now, 
+							how do we actually create those in our code? Below I have listed examples 
+							of angularjs in an html file and app.js file
+							</p>
+							
+							<div class="row">
+								  <div class="col-lg-9">
+									<div class="aboutImages">
+										<h3><u>html:</u></h3>
+										<img style="width:500px; height:300px;" src="img/html.png" alt="html icon" class="img-thumbnail"/>
+									</div>
+								  </div>
+								  <div class="col-lg-9"> 
+									<div class="aboutImages">
+										<h3><u>app.js:</u></h3>
+										<img style="width:500px; height:300px;" src="img/app.PNG" alt="app icon" class="img-thumbnail"/>
+									</div>
+								  </div>
+							</div>
+							
+							<p>If you click the tutorials tab, you will find links to eight different angularjs tutorials for more training.</p>
+							
+						</div>
+				</div>
+				</div>
+
+			<script src="js/jquery/jquery-2.1.3.js"></script>
+			<script src="js/bootstrap/bootstrap.js"></script>
+			
+		</body>	
+				<!--page footer-->	
+			<footer class="main-footer" style="margin:200px 0px 0px 0px;">
+			
+				<div class="social-bar">
+					<a href="https://www.facebook.com" title="Facebook" >
+					   <img src="img/facebook.jpg" alt="Facebook icon" style="width:50px;height:50px"/>
+					</a>
+					<a  href="https://www.twitter.com" title="Twitter">
+					   <img src="img/twitter.png" alt="Twitter icon" style="width:50px;height:50px"/>
+					</a>
+					<a href="https://www.linkedin.com/" title="LinkedIn">
+					   <img src="img/linkedin.png" alt="Linkedin icon" style="width:50px;height:50px"/>
+					</a>
+				</div>
+				
+				<div>
+					<div>Chris Steinkamp. All rights reserved. Copyright &copy; 2014.</div>
+				</div>
+				
+			</footer>
+</html>

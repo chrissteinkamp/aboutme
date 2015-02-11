@@ -1,0 +1,16 @@
+.colname {
+	background-color: gray;
+	border: contain;
+	height:50px;
+	width:auto;
+	}
+	
+.row {
+	color: black;
+	}
+
+.table {
+		margin-top: 200px;
+		width: contain;
+		height:auto;
+		}
