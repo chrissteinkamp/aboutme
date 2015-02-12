@@ -38,23 +38,4 @@ p {
 	
 
 	
-	/* unvisited link */
-a:link {
-    color: blue;
-}
-
-/* visited link */
-a:visited  {
-	color:blue;
-}
-
-/* mouse over link */
-a:hover {
-    color: lightgray;
-}
-
-/* selected link */
-a:active {
-    color: lightgray;
-}
 
