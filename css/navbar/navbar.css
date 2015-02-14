@@ -12,10 +12,12 @@
 	margin: 0 auto;
 	
 	}
-	a.white:link {color: white;}
-a.white:active {color: white;}
-a.white:visited {color: white;}
-a.white:hover {color: gray;}
+	
+
+a#white:link {color: white;}
+a#white:active {color: white;}
+a#white:visited {color: white;}
+a#white:hover {color: gray;}
 	
 .container {
 		background-color: #8F0000;

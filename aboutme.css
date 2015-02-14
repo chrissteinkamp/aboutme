@@ -1,7 +1,6 @@
 body  {
 		background: url("img/bgd1.jpg");
 		background-size: 100%;
-		color: white;
 	}
 
 p {
@@ -43,26 +42,7 @@ p {
 		margin-top: 100px;
 		}
 
-	
-	/* unvisited link */
-a:link {
-    color: white;
-}
 
-/* visited link */
-a:visited {
-    color: white;
-}
-
-/* mouse over link */
-a:hover {
-    color: lightgray;
-}
-
-/* selected link */
-a:active {
-    background-color: lightgray;
-}
 
 .tictactoebackground {
 		margin-top: 300px;
