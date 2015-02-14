@@ -24,7 +24,6 @@ a#white:hover {color: gray;}
 		border: medium double black;
 		border-width: auto;
 		border-radius: 50px;
-		z-index: +1;
 		width: auto;
 		}
 

@@ -1,8 +1,8 @@
 .colname {
-	background-color: gray;
 	border: contain;
-	height:50px;
+	height:25px;
 	width:auto;
+	color: white;
 	}
 	
 .row {
@@ -11,6 +11,19 @@
 
 .table {
 		margin-top: 200px;
-		width: contain;
+		width: 900px;
 		height:auto;
 		}
+
+#tutorialTable_info {
+	color: white;
+	}
+	
+a#tutorialTable_next {
+	color: white;
+	}
+
+a#tutorialTable_previous:link {color: white;}
+a#tutorialTable_previous:active {color: white;}
+a#tutorialTable_previous:hover {color: white;}
+a#tutorialTable_previous:visited {color: white;}

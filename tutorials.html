@@ -48,8 +48,8 @@
 
 			<!--Tabs-->
 			<ul class="nav nav-tabs">
-				<li id="tab2"><a class="white" href="ass6.html" >Blog</a></li>
-				<li id="tab3"><a class="white" href="tutorials.html">Tutorials</a></li>
+				<li id="tab2"><a id="white" href="ass6.html" >Blog</a></li>
+				<li id="tab3"><a id="white" href="tutorials.html">Tutorials</a></li>
 			</ul>
 
 
@@ -67,7 +67,7 @@
 						</tr>
 					</thead>
 					<tbody class="row">
-							<tr ng-repeat="product in store.products">
+							<tr ng-repeat="product in store.products" class="table-inside">
 								<td>
 									<a ng-href="{{product.url}}">Tutorial</a>
 								<td>
