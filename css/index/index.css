@@ -13,10 +13,12 @@ h3 {
 	color: white;
 	}
 
-#carousel-cap {
+.carousel-slide {
 		color: black;
 		font-weight:bold;
 		font-style: underline;
+		margin: 0px auto;
+		margin-top: 50px;
 		}
 
 
@@ -62,8 +64,8 @@ h3 {
 
 	
 .tictactoe {
-		margin-top: 500px;
 		margin: 0px auto;
+		margin-top: 250px;
 		}
 	
 
