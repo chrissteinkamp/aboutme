@@ -14,11 +14,16 @@ h3 {
 	}
 
 #carousel {
-		color: black;
-		font-weight:bold;
-		font-style: underline;
 		margin: 0px auto;
 		margin-top: 50px;
+		width: 900px;
+		height: auto;
+		}
+		
+#carousel h3 {
+		color: #8F0000;
+		text-decoration:underline;
+		font-weight: bold;
 		}
 
 
