@@ -1,8 +1,8 @@
 body  {
-		background: url("img/bgd1.jpg");
-		background-color:black;
-		background-size: 100%;
-		color: white;
+	background-image: url("/img/background.jpg");
+	background-color:black;
+	background-size: 100%;
+	color: white;
 	}
 
 p {
@@ -16,13 +16,13 @@ h3 {
 #carousel {
 		margin: 0px auto;
 		margin-top: 50px;
-		width: 900px;
+		width: auto;
 		height: auto;
 		}
 		
 #carousel h3 {
 		color: #8F0000;
-		text-decoration:underline;
+		text-decoration: underline;
 		font-weight: bold;
 		}
 
